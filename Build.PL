@@ -3,13 +3,13 @@ use Module::Build;
 Module::Build -> new
 (
 	module_name    => 'MojoX::ValidateHeadLinks',
-	license        => 'artistic',
+	license        => 'artistic_2',
 	dist_abstract  => 'Ensure CSS and JS links in web pages point to real files',
 	dist_author    => 'Ron Savage <ron@savage.net.au>',
 	build_requires =>
 	{
-		Test::More => 0.94,
-		Test::Pod  => 1.44,
+		Test::More=> 0.94,
+#		Test::Pod  => 1.45, # Make it optional. See t/pod.t
 	},
 	configure_requires =>
 	{
