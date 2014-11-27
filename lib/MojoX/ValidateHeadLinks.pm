@@ -18,7 +18,7 @@ fieldhash my %maxlevel => 'maxlevel';
 fieldhash my %minlevel => 'minlevel';
 fieldhash my %url      => 'url';
 
-our $VERSION = '1.04';
+our $VERSION = '1.05';
 
 # -----------------------------------------------
 
@@ -414,6 +414,10 @@ Output from a real run, where my dev web site is the same as my real web site (s
 
 	shell> echo $?
 	0
+
+=head1 Repository
+
+L<https://github.com/ronsavage/MojoX-ValidateHeadLinks>
 
 =head1 Support
 
